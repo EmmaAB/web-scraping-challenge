@@ -220,11 +220,11 @@ def scrape_info():
      #Mars Data in Python Dictionary
 
     mars_data = {
-        "Latest News Title": news_title,
-        "Latest News": news_p,
-        "Featured Image": featured_img,
-        "Mars Facts": mars_facts,
-        "Mars hemispheres": hemisphere_image_urls
+        "news_title": news_title,
+        "news_p": news_p,
+        "featured_img": featured_img,
+        "mars_facts": mars_facts,
+        "hemisphere_image_urls": hemisphere_image_urls
     }
 
     # Close the browser after scraping
